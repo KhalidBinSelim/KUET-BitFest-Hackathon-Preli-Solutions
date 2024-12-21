@@ -19,6 +19,8 @@ We used the T5ForConditionalGeneration model, a pre-trained sequence-to-sequence
 #### 4. Train the Model
 We fine-tune the pre-trained T5 model on the Banglish-to-Bengali dataset. We set up the training pipeline using the Hugging Face Trainer class. The hyperparameters, including learning rate, batch size, and number of epochs, are chosen to balance model performance and training time.
 
+### Model Link : <i> https://huggingface.co/Khalid751/Banglish-to-Bengali-Transliteration </i>
+
 ## Key Considerations:
 Dataset Preprocessing: We ensured that the Banglish and Bengali text are tokenized correctly, maintaining a consistent sequence length across all input and output samples. <br>
 Model Choice: T5 is selected due to its strong performance on sequence-to-sequence tasks, especially in multilingual settings, which suits the task of transliterating from Banglish to Bengali. <br>
