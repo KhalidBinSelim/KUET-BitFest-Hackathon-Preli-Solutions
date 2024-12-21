@@ -28,7 +28,7 @@ Training Pipeline: The pipeline uses standard deep learning techniques, includin
 By following this pipeline, the model is trained to perform accurate Banglish-to-Bengali transliteration, which can be useful for users like Iqbal who need to write in Bengali without having the proper keyboard installed.
 
 
-# Mofa's Kitchen Buddy
+# Challenge 2: Mofa's Kitchen Buddy
 
 Mofa's Kitchen Buddy is a backend system that helps Mofa manage his ingredients and suggests recipes based on what he has at home. The system includes APIs for ingredient management, recipe retrieval, and a chatbot powered by a large language model (LLM) to suggest recipes based on available ingredients and personal preferences.
 
